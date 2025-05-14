@@ -1,7 +1,7 @@
 // components/PageContent.js
 import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
-import About from './about';
+import About from './About';
 import Services from './Services';
 import Contact from './Contact';
 
