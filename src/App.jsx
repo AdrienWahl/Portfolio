@@ -18,7 +18,7 @@ function App() {
 
        
 
-                <button onClick={() => setCurrentPage("about")} className='ml-20 pt-10 bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent text-2xl font-bold font-[Poppins]'>Adrien Wahl.dev </button>
+                <button onClick={() => setCurrentPage("about")} className='ml-20 pt-10 bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent text-2xl font-bold font-[Poppins]'>Adrien Wahl </button>
                 
               
             <Menu onNavigate={setCurrentPage}/> 
