@@ -17,12 +17,12 @@ const About = () => {
         </div>
         
         
-        <div className="w-full md:w-[60%] flex flex-col justify-center items-center md:items-start text-center md:text-left p-2">
+        <div className="w-full md:w-[70%] flex flex-col justify-center items-center md:items-start text-center md:text-left p-2">
           <h1 className="mb-4 text-white text-xl md:text-2xl font-semibold">
             <Typewriter />
           </h1>
           
-          <p className="font-[Poppins] text-base md:text-lg leading-relaxed text-gray-200 tracking-wide">
+          <p className="font-[Poppins] text-base md:text-lg leading-relaxed text-gray-200 tracking-wide justify-text-left">
             Hi, I’m Adrien, a React.js, Node.js, and JavaScript developer.<br/>
             I specialize in building dynamic, interactive web applications 
             with a focus on seamless user experiences and robust back-end solutions.

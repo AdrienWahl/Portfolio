@@ -12,21 +12,23 @@ const Menu = ({ onNavigate }) => {
   return (
     <div className="relative">
      
-      <ul className="hidden md:flex text-white text-2xl font-bold justify-end gap-12 mr-20 pt-10">
+      <ul className="hidden md:flex text-white text-2xl font-bold justify-end gap-12 mr-20 pt-10 ">
         <li>
-          <button onClick={() => onNavigate("about")} className="transition transform hover:scale-110 hover:bg-gradient-to-r from-sky-400 to-blue-600 hover:bg-clip-text hover:text-transparent font-[Poppins]">
+          <button onClick={() => onNavigate("about")} className="transition transform hover:scale-110 hover:bg-gradient-to-r from-sky-400 to-blue-600 hover:bg-clip-text hover:text-transparent font-[Poppins] cursor-pointer">
             about
           </button>
         </li>
         <li>
-          <button onClick={() => onNavigate("services")} className="transition transform hover:scale-110 hover:bg-gradient-to-r from-sky-400 to-blue-600 hover:bg-clip-text hover:text-transparent font-[Poppins]">
+          <button onClick={() => onNavigate("services")} className="transition transform hover:scale-110 hover:bg-gradient-to-r from-sky-400 to-blue-600 hover:bg-clip-text hover:text-transparent font-[Poppins] cursor-pointer">
             services
           </button>
         </li>
         <li>
-          <button onClick={() => onNavigate("contact")} className="transition transform hover:scale-110 hover:bg-gradient-to-r from-sky-400 to-blue-600 hover:bg-clip-text hover:text-transparent font-[Poppins]">
+          <button onClick={() => onNavigate("contact")} className="transition transform hover:scale-110 hover:bg-gradient-to-r from-sky-400 to-blue-600 hover:bg-clip-text hover:text-transparent font-[Poppins] cursor-pointer">
             contact
           </button>
+
+          
         </li>
       </ul>
 

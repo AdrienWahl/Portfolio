@@ -1,6 +1,6 @@
 import React from "react";
 import LoadTime from "./LoadTime";
-import RickRoll from "./RickRoll";
+
 
 const Footer = () => {
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
         >
           My shop
         </a>
-        <RickRoll />
+       
       </div>
 
       
